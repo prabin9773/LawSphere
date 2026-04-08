@@ -11,7 +11,7 @@ const API_URL =
   normalizeApiBaseUrl(import.meta.env.VITE_APP_Backend_BaseUrl) ||
   (import.meta.env.PROD
     ? "https://legal-connect-main-backend.vercel.app/api"
-    : "http://localhost:5000/api");
+    : "https://lawshpere-production.up.railway.app/api");
 
 /** Backend origin (no /api) for resolving relative asset URLs (e.g. profile images). */
 const BACKEND_ORIGIN = API_URL.replace(/\/api\/?$/, "");
