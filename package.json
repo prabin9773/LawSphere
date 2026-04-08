@@ -1,0 +1,25 @@
+{
+  "name": "Lawshpere",
+  "private": true,
+  "version": "1.0.0",
+  "description": "lawshpere is a comprehensive legal access platform designed to connect people with affordable legal services and resources. The platform includes features for finding pro bono lawyers, accessing legal resources, participating in community forums, and getting assistance from an AI legal assistant.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm run dev --workspace Backend",
+    "frontend": "npm run dev --workspace Frontend",
+    "start": "npm run dev",
+    "stop": "npx kill-port 5000 3000"
+  },
+  "workspaces": [
+    "Frontend",
+    "Backend"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
