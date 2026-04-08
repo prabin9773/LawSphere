@@ -2,10 +2,6 @@
 
 lawshpere is a comprehensive legal access platform designed to connect people with affordable legal services and resources. The platform includes features for finding pro bono lawyers, accessing legal resources, participating in community forums, and getting assistance from an AI legal assistant.
 
-## 🌐 Live Demo
-
-Visit the live application at [https://legal-connect-main-frontend.vercel.app/](https://legal-connect-main-frontend.vercel.app/)
-
 ## ✨ Features
 
 - **Lawyer Directory**: Find and connect with pro bono lawyers and affordable legal services
